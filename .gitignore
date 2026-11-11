@@ -1,0 +1,27 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Credentials and private keys
+*.pem
+*.p12
+*.pfx
+*.key
+credentials.json
+service-account*.json
+
+# Terraform local and sensitive files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+*.tfplan
+
+# macOS
+.DS_Store
+
+# Editor configuration
+.vscode/
